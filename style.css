@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Exo 2", sans-serif ;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+#nav{
+    height: 50px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav h3{
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    
+}
+
+#main h1{
+    font-size: 130px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 100px;
+    width: 70%;
+    margin-left: 15%;
+    position: relative;
+    z-index: 9;
+}
+
+#main h1:nth-child(2){
+    margin-top: 120px;
+}
+
+#main h1:nth-child(3){
+    text-align: center;
+}
+
+#main h1:nth-child(4){
+    text-align: center;
+}
+
+img{
+    height: 350px;
+    position: absolute;
+    top: 10%;
+    left: 41%;
+    border-radius: 20px;
+}
+
+
+#img1{
+    height: 400px;
+    rotate: 15deg;
+}
+
+#img2{
+    height: 400px;
+    rotate: 12deg;
+}
+
+#img3{
+    height: 400px;
+    rotate: 0deg;
+}
+
+#footer{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+#footer h4{
+    font-family: "Exo 2", sans-serif ;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    margin-top: 10%;
+    top: 100%;
+    bottom: 0;
+}
